@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Kogane.Internal
 {
-    [FilePath( "UserSettings/DeviceSimulatorCaptureWindow.asset", FilePathAttribute.Location.ProjectFolder )]
+    [FilePath( "UserSettings/Kogane/DeviceSimulatorCaptureWindow.asset", FilePathAttribute.Location.ProjectFolder )]
     internal sealed class DeviceSimulatorCaptureWindowSetting : ScriptableSingleton<DeviceSimulatorCaptureWindowSetting>
     {
         [SerializeField] private string m_directoryName  = "DeviceSimulatorCaptureWindow";
